@@ -30,7 +30,8 @@ export default defineConfig({
     trace: 'on-first-retry',
     headless: false,
     screenshot:'only-on-failure',
-    video:'on'
+    video:'on',
+    actionTimeout:30000
   },
   // grep :[new RegExp("Smoke"), new RegExp("@Regression")],
   // grepInvert :[new RegExp("Smoke"), new RegExp("@Regression")],
