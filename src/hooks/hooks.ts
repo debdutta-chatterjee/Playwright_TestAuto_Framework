@@ -10,8 +10,8 @@ BeforeAll({timeout: 30 * 1000},async function () {
     browser = await chromium.launch({ headless: false });
 })
 
-BeforeStep(async function () {
-
+BeforeStep(async function ({pickleStep}) {
+    console.log("==========================================================="+pickleStep.text)
     
 })
 

@@ -4,6 +4,7 @@ import { pageFixture } from '../../hooks/pageFixture';
 
 Given('I am on the orange hrm login page', {timeout: 30 * 5000},async function () {
     await pageFixture.page.goto('https://opensource-demo.orangehrmlive.com/');  
+    
 });
 
 When('I login with username as {string} and password as {string}', async function (username, password) {      
