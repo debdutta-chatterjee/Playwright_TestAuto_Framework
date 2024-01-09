@@ -1,6 +1,6 @@
 {
     "default":{
-        "paths":["src/test/features/"],
+        "paths":["src/test/features/ZeroCodeAI.feature"],
         "require":[
             "src/test/steps/*.ts",
             "src/hooks/*.ts"
