@@ -1,1 +1,4 @@
 $env:ZEROSTEP_TOKEN = '0step:bacd810c-e4d1-44d2-9b2a-bc45f456dd70'
+
+#execute
+npx playwright test aitest-ornageHRM_Admin.spec.ts  --project chromium
